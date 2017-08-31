@@ -1,3 +1,10 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
 header{
     background: lightblue;
     display: flex;
@@ -9,7 +16,6 @@ header{
     display: flex;
     justify-content: center;
     width: 20%;
-    background: red;
 }
 
 .head_img{
@@ -25,14 +31,12 @@ header{
      padding-top: 30px;
     text-align: center;
     width: 40%;
-    background: green;
-    color: white;
+    color: blueviolet;
     font-size: 50px;
     font-weight: bold;
 }
 
 .header-right{
-    background: yellow;
     width: 40%;  
 }
 
@@ -45,7 +49,7 @@ header{
 }
 
 li{
-     float: right;    
+    float: right;    
     line-height: 100px;
      border-right: 1px solid;
 }
@@ -66,23 +70,98 @@ li a:hover{
     display: flex;
     flex-direction: row;
 }
+
 .left-sidebar{
     display: flex;
     width: 20%;
-    background: blue;
+    height: 500px;
+    background: orange;
 }
+
 .section{
     display: flex;
+    height: 500px;
     width: 60%;
+    background: lightgreen;
 }
+
 .right-sidebar{
     display: flex;
     width: 20%;
-    background: blue;
+    height: 500px;
+    /* margin-left: 5px; */
+    background: orange;
 }
 
 footer{
-    background: blue;
+    background: lightblue;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot1{
+     display: flex; 
+    justify-content: center;
+    height: 20px;
+    margin-top: 10px;
+}
+.foot2{
+     display: flex; 
+    justify-content: center;
+    height: 40px;
+    margin-top: 5px;
+}
+.foot3{
     display: flex;
     justify-content: center;
+    height: 20px;
 }
+
+.git{
+    display: flex;
+    flex-direction: column;
+}
+.git-head{
+    display: block;
+    height: 30px;
+    background:blueviolet;
+}
+.git-ul{
+     display: flex;
+    flex-direction: column; 
+    margin-top: 5px;
+}
+.git-ul li{
+   line-height: 40px;
+   border: 1px solid purple;
+   text-align: center;
+   color: purple; 
+}
+git-ul li a:hover{  
+    background: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.about-head{
+    
+}
+ .about-img{
+    height: 300px;
+    width: 60%;
+    padding: 5px;
+}  
+.about-para{
+     padding-left: 200px;
+     padding-right: 100px; 
+}
+    .myname{
+        display: flex;
+        justify-content: center;
+    }
